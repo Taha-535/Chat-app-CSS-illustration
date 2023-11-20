@@ -272,7 +272,7 @@ button {
 
 @media screen and (max-width: 376px) {
   body {
-    height: fit-content;
+    height: 100%;
   }
 
   body::before, body::after {
@@ -289,6 +289,10 @@ button {
     flex-direction: column;
     align-items: center;
     gap: 60px;
+  }
+
+  .ch-cont {
+    margin-top: 40px;
   }
 
   .book {
